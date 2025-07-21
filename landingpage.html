@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABC Bakery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #4b2e2e;
+    }
+
+    header {
+      background-color: #f5c6aa;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background: #e59a6b;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587');
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      background: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .content p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    footer {
+      background-color: #f5c6aa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #d2691e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #a0522d;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ABC Bakery</h1>
+    <p>Freshly Baked Goodness Every Day</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Order Now & Taste the Magic</h2>
+  </div>
+
+  <div class="content">
+    <h3>Welcome to ABC Bakery!</h3>
+    <p>
+      We specialize in artisan breads, pastries, and cakes made with love and
+      natural ingredients. Visit us or order online today.
+    </p>
+    <button onclick="alertContact()">Contact Us</button>
+  </div>
+
+  <footer>
+    <p>Email: contact@abcbakery.com | Phone: +1 (555) 123-4567</p>
+    <p>123 Cupcake Lane, Sweet City, CA 90210</p>
+    <p>&copy; 2025 ABC Bakery</p>
+  </footer>
+
+  <script>
+    function alertContact() {
+      alert("Email us at contact@abcbakery.com or call +1 (555) 123-4567!");
+    }
+  </script>
+</body>
+</html>
